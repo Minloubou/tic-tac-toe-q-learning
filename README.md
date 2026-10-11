@@ -1,8 +1,8 @@
 # Tic-tac-toe — Q-learning en Python
 
-Ce projet propose un jeu de morpion dans le terminal, avec un adversaire aléatoire et un agent entraîné par Q-learning tabulaire.
+Ce projet propose un jeu de tic-tac-toe dans le terminal, avec un adversaire aléatoire et un agent entraîné par Q-learning tabulaire.
 
-L'exercice laissait le choix de l'approche pour développer le tic-tac-toe. J'ai commencé par les règles du jeu, puis ajouté un adversaire aléatoire, avant de développer un agent qui apprend en jouant. Le projet utilise une table Q, sans réseau de neurones.
+L'exercice laissait le choix de l'approche pour développer le jeu. J'ai commencé par les règles du jeu, puis ajouté un adversaire aléatoire, avant de développer un agent qui apprend en jouant. Le projet utilise une table Q, sans réseau de neurones.
 
 ## Fonctionnalités
 
@@ -64,7 +64,7 @@ Paramètres utilisés pour l'entraînement présenté ici :
 
 | Paramètre | Valeur |
 |---|---:|
-| Nombre de parties | 60 000 |
+| Nombre de parties | 500 000 |
 | Probabilité d'exploration | 0,2 |
 | Taux d'apprentissage | 0,2 |
 | Facteur d'actualisation | 0,9 |
